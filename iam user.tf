@@ -1,5 +1,6 @@
 module "iam_user" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-user"
+  version = "5.28.0"
 
   name          = "mad-dev"
   force_destroy = true
